@@ -42,3 +42,11 @@ class CoinSpot(object):
     def myDeposits(self):
         return self._request("my/deposits")
 
+    def totalTransactionHistory(self):
+        return self._request("my/transactions/")
+
+    def transactionHistory(self, coinType):
+        return self._request(f"my/transactions/{coinType}")
+
+    def openTransactions(self):
+        return self._request("my/transactions/open")
