@@ -6,7 +6,7 @@ A CoinSpot API module for Python 3 and above.
 Currently designed for the Read Only CoinSpot API endpoint.
 
 # Establish Connection:
-coinSpotAPI = (CoinSpot('enter API key here', 'enter API secret here'))
+coinSpotAPI = CoinSpot('enter API key here', 'enter API secret here')
 
 # Return JSON object of all owning crypto's and values:
 print(CoinSpotAPI.myBalances())
