@@ -1,7 +1,5 @@
-# CoinSpot Python API
-A CoinSpot API for Python 3 and above. 
-
--Work in progress-
+# CoinSpot Python 
+-Work in progress- Python 3+
 
 Currently designed for the Read Only CoinSpot API endpoint.
 
