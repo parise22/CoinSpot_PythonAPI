@@ -1,4 +1,4 @@
-# CoinSpot_PythonAPI
+# CoinSpot Python API
 A CoinSpot API module for Python 3 and above. 
 
 -Work in progress-
