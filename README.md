@@ -3,8 +3,6 @@
 
 Currently designed for the Read Only CoinSpot API endpoint.
 
-To reach your CoinSpot API keys:
-My Account --> API --> Generate New API Key
 
 # Establish Connection:
 coinSpotAPI = CoinSpot('enter API key here', 'enter API secret here')
